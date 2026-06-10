@@ -1,0 +1,29 @@
+# Python Virtual Environment & Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Downloaded Datasets & Compressed Archives (Exceeds GitHub 100MB Limit)
+data/temp/
+data/sample_audio/
+*.tar.gz
+*.zip
+*.tar
+
+# Frontend Node Modules & Build Outputs
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/.vite/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDEs & System Generated
+.vscode/
+.idea/
+*.log
